@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/camera.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/camera.js"></script>
+	<script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>  
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/wow/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+
+
+
+	<!--[if lt IE 9]>
+  <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+  </div>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  	<script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+  <![endif]-->
+</head>
+
+<body>
+
+<div class="top_section">
+	<div class="container">
+		<ul class="soc_icons wow fadeInRight">
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="#"><i class="fa fa-rss"></i></a></li>
+			<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		</ul>
+
+		<p class="txt1 wow fadeInLeft">phone: + 8 800 757 43 92 <span class="line1"></span> <span class="letter_spacing1"><a href="#" class="link1">Sitemap</a>  <span class="mar1">|</span>   <a href="#" class="link1">FAQ</a></span></p>
+	</div>
+</div>
+
+
+	<!--========================================================
+														HEADER 
+	=========================================================-->
+	<header id="header">
+		<div id="stuck_container">
+			<div class="container">
+				<div class="row">
+					<div class="grid_3">
+						<h1><a href="index.html"><img src="images/logo.png" alt="logo"></a> </h1>
+					</div>
+					<div class="grid_9">
+
+						<div class="js-search">
+							<div class="toggle"></div>
+							<form id="search" class="search-form" action="search.php" method="GET" accept-charset="utf-8">
+								<label class="input" for="in">
+										<input id="in" type="text" name="s" value="Search"
+													 onblur="if(this.value == '') { this.value='Search'}"
+													 onfocus="if (this.value == 'Search') {this.value=''}"/>
+										<a class="js-find" onclick="document.getElementById('search').submit()"></a>
+								</label>
+							</form>
+						</div>
+
+
+						
+						<nav>
+							<ul class="sf-menu">
+								<li class="current"><a href="index.html">Home<strong></strong></a></li>
+								<li><a href="index-1.html">About<strong></strong></a>
+									<ul class="submenu">
+										<li><a href="#">History</a></li>
+										<li><a href="#">News</a>
+											<ul class="submenu2">
+												<li><a href="#">Latest</a></li>
+												<li><a href="#">Archive</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Testimonials</a></li>
+									</ul>
+								</li>
+								<li><a href="index-2.html">Services<strong></strong></a></li>
+								<li><a href="index-3.html">Courses<strong></strong></a></li>
+								<li><a href="index-4.html">Blog<strong></strong></a></li>
+								<li id="last-li"><a href="index-5.html">Contacts<strong></strong></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--========================================================
+														CONTENT 
+	=========================================================-->
+	<section id="content">        
+
+		<!-- start Camera -->
+		<div class="camera_main_container  wow fadeIn">
+				<div class="slider_wrapper">
+					<div class="" id="camera_wrap">
+							<div data-src="images/slide1.jpg">
+									<div class="caption fadeIn">
+											<div class="caption_bg">
+													<span class="slider_txt1">Raising the skill levels <br>of students in home convenience</span>
+													<span class="slider_txt2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vo <br>luptatum deleniti atque corrupti quos dolores et quas molestias.</span>
+											</div>
+									</div>
+							</div>
+
+							<div data-src="images/slide2.jpg">
+									<div class="caption fadeIn">
+											<div class="caption_bg">
+													<span class="slider_txt1">Create your future <br>with us!</span>
+													<span class="slider_txt2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vo <br>luptatum deleniti atque corrupti quos dolores et quas molestias.</span>
+											</div>
+									</div>
+							</div>
+
+							<div data-src="images/slide3.jpg">
+									<div class="caption fadeIn">
+											<div class="caption_bg">
+													<span class="slider_txt1">Providing safe and <br>educational environment!</span>
+													<span class="slider_txt2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vo <br>luptatum deleniti atque corrupti quos dolores et quas molestias.</span>
+											</div>
+									</div>
+							</div>
+
+					</div>
+			</div>
+		</div>
+		
+		<!-- end Camera -->
+
+
+
+
+		<div class="container txt_cntr padBot1">
+			<div class="row">
+				<div class="grid_3 wow fadeInLeft" data-wow-duration="" data-wow-delay="0.5s">
+					<h2>Are you a tutor?</h2>
+					<img src="images/page1_pic1.jpg" alt="" class="img1">
+					<p class="txt2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br>exercitation ullamco.</p>
+					<a href="#" class="more_btn">Read More</a>
+				</div>
+
+				<div class="grid_3 wow fadeInLeft" data-wow-duration="" data-wow-delay="0.1s">
+					<h2>Private and secure</h2>
+					<img src="images/page1_pic2.jpg" alt="" class="img1">
+					<p class="txt2">Epsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim  ng elit, sed do eiusmod temp ad minim venia, exercitation.</p>
+					<a href="#" class="more_btn">Read More</a>
+				</div>
+
+				<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.3s">
+					<h2>100% satisfaction</h2>
+					<img src="images/page1_pic3.jpg" alt="" class="img1">
+					<p class="txt2">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ng elit, sed do eiusmod temp magna aliqua. Ut enim ad minim veniam, exercitation ullamco.</p>
+					<a href="#" class="more_btn">Read More</a>
+				</div>
+
+				<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.7s">
+					<h2>Steps to start</h2>
+					<img src="images/page1_pic4.jpg" alt="" class="img1">
+					<p class="txt2">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ng mod tempor incidid elit, sed do eiusmod temp magna aliqua. Ut enim ad minim veniam, laboris nisi ut aliquip. </p>
+					<a href="#" class="more_btn">Read More</a>
+				</div>
+
+			</div>
+		</div>
+
+
+
+		<section  class="box-1 wow fadeInUp" data-stellar-background-ratio="-0.1">
+			<div class="container">
+				<p class="txt3">Kind words from clients</p>
+
+
+				<div id="owl2">
+
+					<div class="item">
+						<p class="txt4">“ Eos et accusamus et iusto odio. </p>
+						<p class="txt5">Dignissimos ducimus qui blanditiis praesentium voluptatum corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. “ </p>
+						<p class="txt6">Maria Smith, <span class="color1">USA</span></p>
+					</div>
+
+					<div class="item">
+						<p class="txt4">“ Eos et accusamus et iusto odio. </p>
+						<p class="txt5">Dignissimos ducimus qui blanditiis praesentium voluptatum corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. “ </p>
+						<p class="txt6">Amanda Smith, <span class="color1">USA</span></p>
+					</div>
+
+					<div class="item">
+						<p class="txt4">“ Eos et accusamus et iusto odio. </p>
+						<p class="txt5">Dignissimos ducimus qui blanditiis praesentium voluptatum corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. “ </p>
+						<p class="txt6">John Smith, <span class="color1">USA</span></p>
+					</div>
+
+				</div>
+
+
+			</div>
+		</section>
+
+
+		<section  class="box-2 wow fadeInUp">
+			<div class="container">
+				<div class="row">
+					<div class="grid_9 wow fadeInLeft" data-wow-duration="" data-wow-delay="0.3s">
+						<img src="images/page1_icon1.png" alt="" class="img2 no_resize">
+						<p class="txt7">View our events calendar</p>
+					</div>
+					<div class="grid_3 wow fadeInRight bg2" data-wow-duration="" data-wow-delay="0.5s">
+						<p class="txt8">2014 <a href="#" class="link2"><i class="fa fa-arrow-circle-o-right"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<div class="box-3">
+			<div class="container">
+				<div class="row">
+					<div class="grid_6 wow fadeInLeft" data-wow-duration="" data-wow-delay="0.1s">
+						<h2>progressive programs</h2>
+						<h3>exercitationem ullam corporis</h3>
+						<div class="hline"></div>
+
+						<img src="images/page1_pic8.jpg" alt="" class="img3 img_border">
+	
+						<div class="row">
+							<div class="grid_3 wow fadeInLeft" data-wow-duration="" data-wow-delay="1.2s">
+								<ul class="listWithMarker">
+									<li><a href="#">Sed ut perspiciatis unde </a></li>
+									<li><a href="#">Emnis iste natus error sit </a></li>
+									<li><a href="#">Soluptatem accusantium </a></li>
+									<li><a href="#">Doloremque laudantium</a></li>
+									<li><a href="#">Fotam rem aperiam eaque </a></li>
+									<li><a href="#">Apsa quae ab illo inventore</a></li>
+								</ul>
+							</div>
+	
+							<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.9s">
+								<ul class="listWithMarker">
+									<li><a href="#">Dotam rem aperiam eaque ipsa</a></li>
+									<li><a href="#">Eae ab illo inventore veritatis et </a></li>
+									<li><a href="#">Suasi architecto beatae vitae </a></li>
+									<li><a href="#">Explicaboemo enim ipsam </a></li>
+									<li><a href="#">Eluptatem quia voluptas sit </a></li>
+									<li><a href="#">Aspernatur aut odit aut</a></li>
+								</ul>
+							</div>
+	
+						</div>
+					</div>
+
+
+					<div class="grid_6 wow fadeInRight" data-wow-duration="" data-wow-delay="0.5s">
+						<h2>Fast, Easy and Affordable</h2>
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+						<div class="hline"></div>
+						<img src="images/page1_pic9.jpg" alt="" class="img3 img_border">
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. <br>Sorrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
+						<a href="#" class="more_btn">Read More</a>
+					</div>
+	
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	</section>
+
+
+
+	<!--========================================================
+														FOOTER 
+	=========================================================-->
+	<footer id="footer">
+
+		<div class="container">
+			<div class="row">
+				<div class="grid_3 wow fadeInLeft" data-wow-duration="" data-wow-delay="0.5s">
+					<p class="footer_txt_h1"><a href="index.html">atlanta</a></p>
+					<p class="txt_priv wow fadeInLeft"><span class="color1"> &copy; <span id="copyright-year"></span></span> | <a href="index-6.html">Privacy Policy</a><br><!--{%FOOTER_LINK} --></p>
+				</div>
+
+				<div class="grid_3 wow fadeInLeft" data-wow-duration="" data-wow-delay="0.1s">
+					<h2 class="footer_h2">latest posts </h2>
+					<div class="hline2"></div>
+					<p><a href="#">Eos et accusamus et iustom odgnissi <br>mos ducimus qui blap.</a><br><span class="txt9">5 Days ago.</span></p>
+					<div class="hline3"></div>
+					<p><a href="#">At accusamus et iustom odgnissimos <br>ducimus qui blapraesentium. </a><br><span class="txt9">7 Days ago.</span></p>
+				</div>
+
+				<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.3s">
+					<h2 class="footer_h2">Online Support </h2>
+					<div class="hline2"></div>
+					<p class="txt10">+ 8 800 757 43 92</p>
+					<p>Ask Your questions by e-mail: <br><a href="#" class="link3">mail@demolink.org</a></p>
+				</div>
+
+				<div class="grid_3 wow fadeInRight" data-wow-duration="" data-wow-delay="0.7s">
+					<h2 class="footer_h2">Get In Touch </h2>
+					<div class="hline2"></div>
+
+					<ul class="soc_icons wow fadeInRight">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+
+				</div>
+
+			</div>
+		</div>
+
+	</footer>
+
+
+	<section class="content_map">
+		<div class="google-map-api"> 
+			<div id="map-canvas" class="gmap"></div> 
+		</div> 
+	</section>
+
+
+
+<script src="js/script.js"></script>
+
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		jQuery('#camera_wrap').camera({
+				loader: false,
+				pagination: false,
+				thumbnails: false,
+				height: '36.5%',
+				fx: 'mosaicSpiral',
+				rows: '3',
+				slicedCols: '3',
+				slicedRows: '2',
+				caption: false
+			});
+	 });
+
+	 $(document).ready(function(){
+		// Initialize the gallery
+		$('.magnifier2').touchTouch();
+	 });
+</script>
+
+<script src="js/owl.carousel.js"></script> 
+<script>
+	 $(document).ready(function(){
+
+		/*carousel*/
+		var owl = $("#owl2"); 
+				owl.owlCarousel({
+				items : 1, //10 items above 1000px browser width
+				itemsDesktop : [995,1], //5 items between 1000px and 901px
+				itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+				itemsTablet: [700, 1], //2 items between 600 and 0
+				itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+				navigation : false,
+				pagination :  true
+				});
+
+ }); 
+ </script>
+
+
+ <script>
+	$('.more_btn, .link2').hover(function(){
+		$(this).addClass('animated pulse');
+		$('i',this).addClass('animated swing');
+		$(this).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', end_animation_function);
+			}, function(){
+			//$(this).removeClass('animated pulse');
+		})
+
+	function end_animation_function(){
+		$(this).removeClass('animated pulse');
+		$('i',this).removeClass('animated swing');
+	}
+</script>
+
+
+
+<script type="text/javascript"> 
+	google_api_map_init();
+	function google_api_map_init(){
+		var map;
+		var coordData = new google.maps.LatLng(parseFloat(40.646197), parseFloat(-73.9724068,14)); 
+		var marker;
+
+		var markerIcon = { 
+				url: "images/gmap_marker.png", 
+				size: new google.maps.Size(42, 65), 
+				origin: new google.maps.Point(0,0), 
+				anchor: new google.maps.Point(21, 70) 
+		};
+
+		// styleArray=[{"featureType":"all","stylers":[{"saturation":-100},{"gamma":0.5}]}]
+
+		function initialize() { 
+			var mapOptions = { 
+				zoom: 14, 
+				center: coordData, 
+				scrollwheel: false, 
+				// styles: styleArray 
+			}
+
+			var contentString = "<div></div>"; 
+			var infowindow = new google.maps.InfoWindow({ 
+				content: contentString, 
+				maxWidth: 200 
+			});
+			 
+			var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
+			marker = new google.maps.Marker({ 
+				map:map, 
+				draggable:true, 
+				position: coordData, 
+				icon: markerIcon 
+			});
+			
+		}
+		google.maps.event.addDomListener(window, "load", initialize); 
+	}
+</script>
+
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7078796-5']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+</body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+</html>
